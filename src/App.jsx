@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import Button from './components/button/Button';
-import Card from './components/card/Card';
 import Footer from './components/fotter/Fotter';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
