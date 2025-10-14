@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.footer {
+  background-color: rgba(0, 0, 0, 0.7); /* transparent dark */
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative; /* relative rakhna kaafi hai normal flow ke liye */
+  /* width: 100%; */
+  bottom: 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.social-links {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffcc00; /* yellow highlight */
+}

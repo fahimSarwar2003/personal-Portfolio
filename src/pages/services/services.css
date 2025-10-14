@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.services {
+  /* background: #0d0d0d; */
+  color: #e0e0e0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services .heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  margin: auto;
+  width: 600px;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr); /* Default: 2 per row */
+}
+
+/* Mobile view (max 768px or jitni choti screen ho) */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr; /* 1 card per row on mobile */
+    width: 400px;
+  }
+}
+
+
+.service-card {
+  background: #1a1a1a;
+  padding: 30px 20px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+}
+
+.service-card .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #00df9a;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #aaa;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
